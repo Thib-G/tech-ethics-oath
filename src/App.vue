@@ -55,7 +55,7 @@ onMounted(async () => {
       <div class="card-header">
         They have pledged
       </div>
-      <div class="card-body">
+      <div class="card-body mb-3">
         <table class="table table-sm">
           <thead>
             <tr>
@@ -75,6 +75,9 @@ onMounted(async () => {
           </tbody>
         </table>
       </div>
+    </div>
+    <div class="small mb-2 text-center">
+      <a href="https://github.com/Thib-G/tech-ethics-oath">Source</a>
     </div>
   </div>
 </template>
